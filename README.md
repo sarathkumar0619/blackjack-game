@@ -24,7 +24,8 @@ This is a simple web-based Blackjack game where you can test your luck against t
 - JavaScript
 
 ## Screenshots
- ![image](https://github.com/sarathkumar0619/blackjack-game/assets/130230309/8c533a4f-bd0a-44c2-a4f0-133c5ed03e42)
+ ![image](https://github.com/sarathkumar0619/blackjack-game/assets/130230309/6726ebf6-c908-43f3-82fc-61c0037e3b16)
+
 
 
 ## Installation
