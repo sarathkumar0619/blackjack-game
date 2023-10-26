@@ -1,33 +1,33 @@
-# Blackjack Game
+<!DOCTYPE html>
+<html lang="en">
 
-Welcome to the Blackjack game by Sarath Pediredla's Casino!
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="gptbj.css"> 
+</head>
 
-## Description
-This is a simple web-based Blackjack game where you can test your luck against the computer dealer. See if you can get a hand value as close to 21 as possible without going over.
+<body>
+    <div class="container themed-container">
+        <div class="jumbotron">
+            <h1 class="text-center">♠️ Blackjack Game ♣️</h1>
+        </div>
+        <div class="text-center game-info">
+            <p id="message-el" class="game-message">Ready to play?</p>
+            <div class="game-stats">
+                <h2 id="cards-el">Cards: 🂠</h2>
+                <h2 id="sum-el">Sum: </h2>
+            </div>
+            <button class="btn btn-success game-btn" onclick="playGame()">Start Game</button>
+            <button class="btn btn-info game-btn" onclick="newcard()">Draw Card</button>
+            <h3 id="player-El" class="player-stats"></h3>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
 
-## How to Play
-1. Open the `blackjack.html` file in a web browser.
-2. Click the "Start Game" button to begin the game.
-3. Use the "Draw Card" button to draw a new card and add it to your hand.
-4. Try to get as close to 21 as possible without exceeding it.
-5. If your hand value goes over 21, you'll bust and lose the game.
-6. If you get a hand value of 21 with just two cards, you'll have Blackjack and win!
-
-## Game Features
-- Display of player's name and available chips.
-- Random card drawing.
-- Interactive game messages for different scenarios (bust, Blackjack, etc.).
-
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-
-## Screenshots
- ![image](https://github.com/sarathkumar0619/blackjack-game/assets/130230309/4d374797-0ff7-4c21-93a0-689b47f3d5fb)
-
-
-## Installation
-Simply clone this repository to your local machine and open the `blackjack.html` file in a web browser.
-
-
+</html>
