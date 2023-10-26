@@ -1,2 +1,35 @@
-# blackjack-game
-## Description This is a simple web-based Blackjack game implemented using HTML, CSS, and JavaScript. Test your luck and see if you can beat the dealer in this interactive game. Have fun and enjoy the thrill of Blackjack right in your web browser!
+# Blackjack Game
+
+Welcome to the Blackjack game by Sarath Pediredla's Casino!
+
+## Description
+This is a simple web-based Blackjack game where you can test your luck against the computer dealer. See if you can get a hand value as close to 21 as possible without going over.
+
+## How to Play
+1. Open the `blackjack.html` file in a web browser.
+2. Click the "Start Game" button to begin the game.
+3. Use the "Draw Card" button to draw a new card and add it to your hand.
+4. Try to get as close to 21 as possible without exceeding it.
+5. If your hand value goes over 21, you'll bust and lose the game.
+6. If you get a hand value of 21 with just two cards, you'll have Blackjack and win!
+
+## Game Features
+- Display of player's name and available chips.
+- Random card drawing.
+- Interactive game messages for different scenarios (bust, Blackjack, etc.).
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Screenshots
+ ![image](https://github.com/sarathkumar0619/blackjack-game/assets/130230309/4d374797-0ff7-4c21-93a0-689b47f3d5fb)
+
+
+## Installation
+Simply clone this repository to your local machine and open the `index.html` file in a web browser.
+
+```bash
+git clone https://github.com/yourusername/blackjack-game.git
+cd blackjack-game
