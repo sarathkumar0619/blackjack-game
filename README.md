@@ -28,8 +28,6 @@ This is a simple web-based Blackjack game where you can test your luck against t
 
 
 ## Installation
-Simply clone this repository to your local machine and open the `index.html` file in a web browser.
+Simply clone this repository to your local machine and open the `blackjack.html` file in a web browser.
 
-```bash
-git clone https://github.com/yourusername/blackjack-game.git
-cd blackjack-game
+
